@@ -1,10 +1,10 @@
-package com.example.learningspringbootconcepts;
+package com.learn.spring.boot.concepts;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LearningSpringBootConceptsApplicationTests {
+class SpringBootConceptsApplicationTests {
 
 	@Test
 	void contextLoads() {
