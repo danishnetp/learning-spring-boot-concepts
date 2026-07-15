@@ -192,13 +192,13 @@ It is more advanced than `BeanFactory` and is the preferred container in real ap
 
 **Answer:**
 
-| Feature | BeanFactory | ApplicationContext |
-|---|---|---|
-| Bean loading | Lazy | Usually eager for singleton beans |
-| Enterprise features | Limited | Full support |
-| Events | No | Yes |
-| Internationalization | No | Yes |
-| Annotation support | Basic | Full |
+| Feature              | BeanFactory | ApplicationContext                |
+|----------------------|-------------|-----------------------------------|
+| Bean loading         | Lazy        | Usually eager for singleton beans |
+| Enterprise features  | Limited     | Full support                      |
+| Events               | No          | Yes                               |
+| Internationalization | No          | Yes                               |
+| Annotation support   | Basic       | Full                              |
 
 In interviews, the common answer is: **`ApplicationContext` is richer and used in almost all modern Spring applications.**
 
@@ -336,13 +336,13 @@ Spring Boot reduces boilerplate and lets developers focus on business logic.
 
 **Answer:**
 
-| Spring | Spring Boot |
-|---|---|
-| Core framework | Built on top of Spring |
-| Requires more configuration | Minimal configuration |
-| External server often needed | Embedded server support |
+| Spring                          | Spring Boot                      |
+|---------------------------------|----------------------------------|
+| Core framework                  | Built on top of Spring           |
+| Requires more configuration     | Minimal configuration            |
+| External server often needed    | Embedded server support          |
 | Dependency management is manual | Starter dependencies simplify it |
-| Setup takes more effort | Quick bootstrapping |
+| Setup takes more effort         | Quick bootstrapping              |
 
 **Interview summary:**
 Spring is the foundation; Spring Boot makes Spring application development faster and easier.
